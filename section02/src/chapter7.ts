@@ -32,4 +32,6 @@ function func4(): never {
   throw new Error();
 }
 // 이 함수의 반환값이 있는 거 자체가 모순이다 -> never 타입 사용
-// never 타입은 모든 타입을 담을 수 없다. strictNullChecks 옵션이 false일 때조차 null을 담을 수 없다. any 타입의 값도 never 타입의 경우에는 담을 수 없다.
+// never 타입은 모든 타입을 담을 수 없다.
+// strictNullChecks 옵션이 false일 때조차 null을 담을 수 없다.
+// any 타입의 값도 never 타입의 경우에는 담을 수 없다.
