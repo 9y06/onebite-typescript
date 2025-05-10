@@ -17,7 +17,6 @@ num = anyVar; // 에러 안남. 모든 타입의 값을 할당 받을 수 있고
 
 // unkwown
 let unknownVar: unknown;
-
 unknownVar = "";
 unknownVar = 10;
 unknownVar = () => {};
